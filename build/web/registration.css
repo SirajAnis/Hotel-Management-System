@@ -1,0 +1,42 @@
+.formB{
+    width: 500px;;
+    height: 450px;
+    top: 10%;
+    left: 20%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5); 
+    font-family: 'Lobester',cursive;
+}
+.formB h1{
+    color: #cc0033;
+    font-size: 35px;
+    alignment-adjust: central;
+    font-weight: bold;
+    font-family:monospace;
+}
+.formB label{
+    color: #43FF33;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;   
+}
+.formB input{
+    font-size: 18px;
+    width: 70%;
+    padding: 0px 0px;
+    border: 5px;
+    border-radius: 5px;
+    color: #030003;
+}
+.butt{
+  alignment-adjust: central;
+  font-size: 25px;
+  color: #3369FF;
+  border-radius: 5px; 
+  width: 135px;
+ 
+}
+.reg{
+    margin-left: 150px;
+    margin-top: 5px;
+}

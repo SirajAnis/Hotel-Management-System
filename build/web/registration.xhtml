@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+     <title>Register</title>
+     <link rel="stylesheet" href="registration.css"></link>
+    </h:head>
+    <h:body>
+             <ui:include src="aberus.xhtml" /> 
+          <h:form >
+              <fieldset class="formB">
+                  <h1>Registration Form</h1>
+                <div>
+                    <label>First Name : </label>
+                    <h:inputText value="#{registration.fname}" a:placeholder="First name" />
+                </div>
+                <div>
+                    <label>Last Name : </label>
+                    <h:inputText value="#{registration.lname}" a:placeholder="Last name" />
+                 </div>
+                <div>
+                    <label>Phone Num : </label>
+                    <h:inputText value="#{registration.phone}" a:placeholder="Phone Number" />
+                 </div>
+                <div>
+                    <label>E-mail  : </label>
+                    <h:inputText value="#{registration.email}" a:placeholder="eg example@gmail.com" />
+                </div>               
+                <div style="display: flex;">
+                    <label> Gender:</label>
+                    <div>
+                        <h:selectOneRadio value="#{registration.gender}" >
+                            <f:selectItems  value="#{registration.genderList}"/>      
+                        </h:selectOneRadio>
+                    </div>
+                </div>               
+                <div style="display: flex;">
+                    <label> User Type:</label>
+                    <div>
+                        <h:selectOneRadio value="#{registration.userType}" >
+                            <f:selectItems value="#{registration.userTypeList}"/>
+                           
+                        </h:selectOneRadio>
+                    </div>
+                </div>               
+                <div>
+                    <label>User Name:</label>
+                    <h:inputText value="#{registration.userName}" a:placeholder="User name" />
+                </div>   
+                <div>
+                    <label>Password:</label>
+                    <h:inputSecret value="#{registration.password}" a:placeholder="Password" />
+                </div>
+                <div>
+                    <label>C.Password:</label>
+                    <h:inputSecret value="#{registration.password}" a:placeholder="Confrim password" />
+                </div>
+                  <div class="butt" style="display: flex;">
+                      <h:commandButton class="reg" value="Register" action="#{registration.data}" onclick="Logout()" />	
+                      <h:commandButton class="reg" value="Cancel" onclick="Cancel()"/>	
+                </div> 
+
+            </fieldset>
+        </h:form>
+        <SCRIPT for="message">
+            function Logout()
+            {
+                var response = confirm('Are you sure?\n\ All the data you entered are correct?');
+               if (response)
+                     alert("Succesful!\n\Go back one step and acces all things\n\ by entering your username and password");
+                else
+                    alert("Oop, their is some error.\n\Registration can't perform");
+            }
+        </SCRIPT>
+        <SCRIPT for="message">
+            function Cancel()
+            {
+              alert("Is the registration cancel?");
+            }
+        </SCRIPT>     
+    </h:body>
+</html>
+

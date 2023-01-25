@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.part label{
+    color: #cc00ff;
+    font-weight: bold;
+    font-family: 'Lobester',cursive;
+    font-size: 30px;
+}
+#btn1{
+  font-size: 22px;
+  color: #3369FF;
+  border-radius: 10px;
+  width: 90px;
+  font-family: 'Lobester',cursive;
+  font-weight: bold;
+}
+#btn2{
+  font-size: 22px;
+  color: #3369FF;
+  border-radius: 10px;
+  width: 90px;
+  font-family: 'Lobester',cursive;
+  font-weight: bold;
+}
+#btn3{
+  font-size: 22px;
+  color: #3369FF;
+  border-radius: 10px;
+  width: 90px;
+  font-family: 'Lobester',cursive;
+  font-weight: bold;
+}

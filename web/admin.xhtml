@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>admin page</title>
+        <link rel="stylesheet" href="admin.css"/>
+    </h:head>
+    <h:body>
+       <ui:include src="aberus.xhtml"/>
+       <form>
+           <div class="part">
+               <div class="part1">
+                 <label> View The data </label>
+               <h:commandButton id="btn1" value="view" styleClass="part2"/>                
+               </div>  
+               <div>
+                   <label> Update the data </label>
+                   <h:commandButton id="btn2" value="Update"/>
+               </div>
+               <div>
+                   <label> Delete the data </label>
+                   <h:commandButton id="btn3" value="Delete"/>                  
+               </div>
+          </div> 
+       </form>
+    </h:body>
+</html>

@@ -1,0 +1,13 @@
+.bodyy{
+    width: 250px;
+    height: 150px;
+    top: 16%;
+    left: 40%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+}
+.bodyy label{
+    font-weight: bold;
+    color: #cc00ff;
+    font-size: 20px;
+}

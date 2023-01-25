@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Employee registration</title>
+        <link rel="stylesheet" type="text/css" href="employee.css"/>
+        
+    </h:head>
+    <h:form class="hea">
+
+    </h:form>
+    <h:body>
+        
+        <div class="regform"><h1>Registration Form</h1></div>
+        
+        <div class="main"/>
+        <form>
+            <div id="name">
+            <h2 class="name">Name</h2>
+            <input type="text" class="firstname" name="" placeholder="firstname"/>
+            <input type="text" class="lastname" name="" placeholder="lastname"/>
+           </div>
+            <h2 class="Age">Age</h2>
+            <input type="number" class="age" name=""/>
+            <h2 class="Gender">Gender</h2>
+            <select class="Gender">
+                <option>Male</option>
+                <option>female</option>
+            </select>
+            <h2 class="E-mail">E-mail</h2>
+            <input type="text" class="email" name="" placeholder="....@gmail.com"/>
+            <h2 class="phone">Phone</h2> 
+            <select class="phone">
+                <option>+251</option>
+            </select>
+            <input type="text" class="number" placeholder="phone number" name=""/>
+            <h2 class="password"> Password</h2>
+            <input type="password" class="pass1" placeholder="enter password" name=""/>
+            <input type="password" class="pass2" placeholder="re-enter password" name=""/>
+            <h2 class="type">User Type</h2>
+            <select class="type">
+                <option>Admin</option>
+                <option>Employee</option>
+                <option>Customer</option>
+            </select>
+            <input type="button" class="btn" value="Register" name=""/>
+        </form>
+    </h:body>
+</html>
+
