@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Delete</title>
+        <link rel="stylesheet" href="delete.css"/>
+    </h:head>
+    <h:body>
+        <ui:include src="aberus.xhtml"/>
+        <h:form>
+            <h1>Well Came!</h1>
+            <h1>Delete data from the record</h1>
+            <h:outputLabel class="labl" value="Enter a user name to delet personal data "/>
+            <div>
+                <h:inputText class="input" value="#{delete.userName}" a:placeholder="Enter username"/>
+            </div>
+            <div>
+                <h:commandButton value="Delete" action="#{delete.Deletee}" onclick="deleted()" styleClass="btt"/>
+            </div>
+        </h:form>
+         <SCRIPT for="message">
+            function deleted()
+            {
+              alert("Succesfully deleted.");
+            }
+        </SCRIPT>  
+    </h:body>
+</html>
+

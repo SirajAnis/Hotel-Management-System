@@ -21,11 +21,11 @@ nav.logo{
 }
 nav .logo p{
     float: left;
-    padding:0px 20px;
     color: #ec1313;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-left: 300px;
 }
 nav ul{
     float: right;

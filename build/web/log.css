@@ -1,0 +1,24 @@
+.bodyy{
+    width: 250px;
+    height: 150px;
+    top: 16%;
+    left: 40%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+}
+.bodyy label{
+    font-weight: bold;
+    color: #cc00ff;
+    font-size: 20px;
+}
+h1{
+   color: #ff0000;
+   margin-left: 400px;
+   font-family: serif;
+}
+h2{
+    color: #43FF33;
+   margin-left: 500px;
+   font-family: monospace;
+   font-weight: bold;
+}

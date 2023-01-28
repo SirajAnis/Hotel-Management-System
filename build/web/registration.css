@@ -1,11 +1,12 @@
 .formB{
-    width: 500px;;
-    height: 450px;
+    width: 400px;;
+    height: 440px;
     top: 10%;
     left: 20%;
     position: absolute;
     background-color: rgba(0,0,0,0.5); 
     font-family: 'Lobester',cursive;
+    border-radius: 10px;
 }
 .formB h1{
     color: #cc0033;
@@ -18,7 +19,9 @@
     color: #43FF33;
     font-size: 20px;
     font-weight: bold;
-    font-style: italic;   
+    font-style: italic;
+    width: 135px;
+    display: inline-block;
 }
 .formB input{
     font-size: 18px;
@@ -33,10 +36,17 @@
   font-size: 25px;
   color: #3369FF;
   border-radius: 5px; 
-  width: 135px;
- 
+  width: 125px;
+  
 }
-.reg{
-    margin-left: 150px;
-    margin-top: 5px;
+.btnn1{
+  font-size: 22px;
+  border-radius: 20px;
+  size: 80px;
+  font-family: 'Lobester',cursive;
+  font-weight: bold;
+  margin-left: 125px;
+  margin-top: 8px;
+  height: 30px;
+  display: flex;
 }

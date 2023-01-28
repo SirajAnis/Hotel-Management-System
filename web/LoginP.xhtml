@@ -11,10 +11,9 @@
     </h:head>
     <h:body>
           <ui:include src="aberus.xhtml" />     
-        <h:form >
-
-            <fieldset class="bodyy">
-                <div>
+        <h:form>
+                <div class="bodyy">
+                    <div>
                     <label for="firstName">User Name:</label>
                     <div>
                         <h:inputText label=" username" id="firstName" value="#{login.userType}" a:placeholder="User name" />
@@ -29,9 +28,8 @@
                 </div>
                     <div>
                         <h:commandButton value="Login" action="#{login.validateUsernamePassword}" />	
-
                     </div>
-            </fieldset>
+            </div>
         </h:form>
     </h:body>
 </html>

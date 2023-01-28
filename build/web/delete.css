@@ -1,0 +1,37 @@
+h1{
+    color: #cc00ff;
+    font-family: cursive;
+    margin-left: 450px;
+    font-size: 35px;
+}
+
+.labl{
+    color: #cc0033;
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: cursive;
+}
+.input{
+    margin-left: 440px;
+    background-color: #ccffcc;
+    width: 400px;
+    height: 35px;
+    border: 50px;
+    border-radius: 5px;
+    border-color: #ffffcc;
+    font-size: 20px;
+    color: #0000cc;
+}
+.btt{
+  margin-left: 745px;
+  margin-top: 5px;
+  alignment-adjust: central;
+  font-size: 20px;
+  color: #3369FF;
+  border-radius: 15px; 
+  width: 100px;
+  font-family: monospace;
+  font-weight: bold;
+  background-color: #ffff99;
+}

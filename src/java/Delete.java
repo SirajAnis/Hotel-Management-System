@@ -1,4 +1,5 @@
 
+import java.sql.*;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
@@ -6,16 +7,25 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 public class Delete {
 
- private String fname;
+ private String userName;
 
-    public String getFname() {
-        return fname;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setFname(String fname) {
-        this.fname = fname;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
-    public Delete() {
+    public void Deletee(){
+    try{
+    DBConnection db=new DBConnection();
+    Connection con=db.connMethod();
+    PreparedStatement ps=con.prepareStatement("Delete from DATATABLE where USERNAME=?");
+    ps.setString(1,userName);
+    ps.executeUpdate();
     }
-    
+    catch(Exception e){
+      System.out.print(e);
+    }
+    }  
 }

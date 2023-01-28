@@ -36,16 +36,15 @@
   font-size: 25px;
   color: #3369FF;
   border-radius: 5px; 
-  width: 125px;
+  width: 325px;
   
 }
 .btnn1{
   font-size: 22px;
   border-radius: 20px;
-  size: 80px;
   font-family: 'Lobester',cursive;
   font-weight: bold;
-  margin-left: 125px;
+  margin-left: 85px;
   margin-top: 8px;
   height: 30px;
   display: flex;

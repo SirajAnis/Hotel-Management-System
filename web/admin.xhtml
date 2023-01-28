@@ -8,22 +8,23 @@
         <link rel="stylesheet" href="admin.css"/>
     </h:head>
     <h:body>
-       <ui:include src="aberus.xhtml"/>
-       <form>
+ <ui:include src="aberus.xhtml"/>
+ <h:form id="position">
            <div class="part">
-               <div class="part1">
+               <div>
+                 <h1>Well Came</h1>
                  <label> View The data </label>
-               <h:commandButton id="btn1" value="view" styleClass="part2"/>                
+                 <h:commandButton value="view" action="view.xhtml" styleClass="btn"/>                
                </div>  
                <div>
                    <label> Update the data </label>
-                   <h:commandButton id="btn2" value="Update"/>
+                   <h:commandButton value="Update" action="update.xhtml" styleClass="btn"/>
                </div>
                <div>
                    <label> Delete the data </label>
-                   <h:commandButton id="btn3" value="Delete"/>                  
+                   <h:commandButton value="Delete" action="delete.xhtml" styleClass="btn"/>                  
                </div>
           </div> 
-       </form>
+       </h:form>
     </h:body>
 </html>

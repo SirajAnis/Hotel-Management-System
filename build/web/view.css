@@ -1,0 +1,49 @@
+td{
+    margin: 20px;
+    padding: 15px;
+    background-color:rgba(0,0,0,0.7);
+    font-weight: bold;
+    color: #cc00ff;
+    font-family: cursive;
+}       
+th{
+    margin: 20px;
+    background-color:#0000cc;
+    padding: 18px;
+    font-weight: bold;
+    color: #ff0000;
+    font-family: serif;
+}
+h1{
+    color:red;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 500px;
+}
+#table{
+    width:80%;
+    margin-left: 10%;
+    alignment-adjust: central;
+    height: 80%;
+}
+.bt{
+  alignment-adjust: central;
+  font-size: 25px;
+  color: #3369FF;
+  border-radius: 20px; 
+  width: 125px;
+  font-weight: bold;
+  margin-left: 230px;
+  background-color: #ffff00;
+  margin-top: 3px;
+}
+.btn{
+  alignment-adjust: central;
+  font-size: 25px;
+  color: #3369FF;
+  border-radius: 20px; 
+  width: 880px;
+  display: flex;
+  margin-left: 500px;
+  margin-top: 3px;
+}

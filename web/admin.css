@@ -8,24 +8,11 @@ body{
     font-weight: bold;
     font-family: 'Lobester',cursive;
     font-size: 30px;
+    display: inline-block;
+    width: 250px;
+    margin-left: 450px;
 }
-#btn1{
-  font-size: 22px;
-  color: #3369FF;
-  border-radius: 10px;
-  width: 90px;
-  font-family: 'Lobester',cursive;
-  font-weight: bold;
-}
-#btn2{
-  font-size: 22px;
-  color: #3369FF;
-  border-radius: 10px;
-  width: 90px;
-  font-family: 'Lobester',cursive;
-  font-weight: bold;
-}
-#btn3{
+.btn{
   font-size: 22px;
   color: #3369FF;
   border-radius: 10px;
