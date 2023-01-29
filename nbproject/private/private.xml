@@ -3,7 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/room.xhtml</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/ofood.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/loginP.css</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/broom.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/src/java/Logn.java</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/index.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/view.xhtml</file>
@@ -11,11 +14,14 @@
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/update.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/src/java/Login.java</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/aberus.css</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/odrink.xhtml</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/drinks.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/view.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/admin.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/registration.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/log.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/about.xhtml</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/updview.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/employees.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/customers.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/LoginP.xhtml</file>
@@ -27,10 +33,12 @@
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/registration.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/admin.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/src/java/Update.java</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/room.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/delete.css</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/src/java/Registration.java</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/aberus.xhtml</file>
             <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/customers.css</file>
+            <file>file:/C:/Users/Siru/Documents/NetBeansProjects/HotelManagementSystem/web/foods.xhtml</file>
         </group>
     </open-files>
 </project-private>
