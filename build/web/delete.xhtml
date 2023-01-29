@@ -3,15 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
         <title>Delete</title>
         <link rel="stylesheet" href="delete.css"/>
+        <link rel="stylesheet" href="updview.css"></link>
     </h:head>
     <h:body>
         <ui:include src="aberus.xhtml"/>
-        <h:form>
-            <h1>Well Came!</h1>
+        <h:form class="ford">
+            <h5>Well Came!</h5>
             <h1>Delete data from the record</h1>
             <h:outputLabel class="labl" value="Enter a user name to delet personal data "/>
             <div>
@@ -27,6 +29,45 @@
               alert("Succesfully deleted.");
             }
         </SCRIPT>  
+           <h:form>
+            <h:commandButton value=" Back  " action="admin.xhtml" style="margin-top: 2px; margin-left: 410px" styleClass="btt"/>
+            <h:commandButton value=" Home " action="index.xhtml" style="margin-top: 2px;margin-left: 30px;" styleClass="btt"/>
+        </h:form> 
+        <h1 style="margin-left: 60%;">DATA TABLE</h1>
+        <h:dataTable id="table" value="#{information.datalist}" var="siru">
+        <h:column>
+            <f:facet name="header">First Name</f:facet>
+            <h:outputText value="#{siru.fname}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Last Name</f:facet>
+            <h:outputText value="#{siru.lname}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Phone</f:facet>
+            <h:outputText value="#{siru.phone}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">E-mail</f:facet>
+            <h:outputText value="#{siru.email}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Gender</f:facet>
+            <h:outputText value="#{siru.gender}"/>
+        </h:column>  
+        <h:column>
+            <f:facet name="header">User Type</f:facet>
+            <h:outputText value="#{siru.userType}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">User Name</f:facet>
+            <h:outputText value="#{siru.userName}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Password</f:facet>
+            <h:outputText value="#{siru.password}"/>
+        </h:column>            
+        </h:dataTable> 
     </h:body>
 </html>
 

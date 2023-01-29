@@ -1,8 +1,12 @@
+.forn{
+    width: 100px;
+    height: 43px;
+}
 .formB{
-    width: 400px;;
+    width: 300px;
     height: 440px;
-    top: 10%;
-    left: 20%;
+    top: 6%;
+    left: 0.5%;
     position: absolute;
     background-color: rgba(0,0,0,0.5); 
     font-family: 'Lobester',cursive;
@@ -10,10 +14,13 @@
 }
 .formB h1{
     color: #cc0033;
-    font-size: 35px;
+    font-size: 33px;
     alignment-adjust: central;
     font-weight: bold;
     font-family:monospace;
+    background-color: #ffff66;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .formB label{
     color: #43FF33;

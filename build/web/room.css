@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  background:#3369FF;
+    background:#3399ff;
 }
 h1{
     color: #ec1313;
@@ -28,17 +28,18 @@ img{
     bottom: 0;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    background: #000000;
+    background: white;
     cursor: pointer;
 }
 .content{
     position: absolute;
     top: 81%;
     left: 64%;
-    color: #cc00ff;
+    color: #cc0033;
     font-family: sans-serif;
     text-align: center;
     font-weight: bold;
+    background-color: #fff;
 }
 .container:hover .overlay{
    opacity: 0.5;

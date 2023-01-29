@@ -8,10 +8,11 @@
     <h:head>
      <title>Update</title>
      <link rel="stylesheet" href="update.css"></link>
+     <link rel="stylesheet" href="updview.css"></link>
     </h:head>
     <h:body>
              <ui:include src="aberus.xhtml" /> 
-          <h:form >
+          <h:form class="forn">
               <fieldset class="formB">
                   <h1>Update Form</h1>
                 <div>
@@ -49,7 +50,7 @@
                 </div>               
                 <div>
                     <label>User Name :</label>
-                    <h:inputText value="#{update.userName}" a:placeholder="User name" />
+                    <h:inputText value="#{update.userName}" a:placeholder=" write a correct User name to be modified" />
                 </div>   
                 <div>
                     <label>Password :</label>
@@ -59,15 +60,55 @@
                     <label>C.Password :</label>
                     <h:inputSecret value="#{update.password}" a:placeholder="Confrim password" />
                 </div>
-                  <div class="butt" style="display: flex;">
-                      <h:commandButton class="reg" value="Back" action="admin.xhtml" styleClass="btnn1"/>
-                      <h:commandButton class="reg" value="Update" action="#{update.updated}" onclick="upd()" styleClass="btnn1"/>
-                      <h:commandButton class="reg" value="Cancel" action="update.xhtml" styleClass="btnn1"/>
-                      <h:commandButton class="reg" value="View" action="view.xhtml" styleClass="btnn1"/>
+                  <div style="display: flex;">
+
+                      <h:commandButton value=" Update " action="#{update.updated}" onclick="upd()" style="color: #0000cc;background-color: #ffff66;margin-top: 10px;margin-left: 250px; border-radius: 30px;font-family: serif;font-weight: bold;height: 35px;width: 100px;"/>
+                      <h:commandButton value=" Cancel " action="update.xhtml" style="color: #0000cc;background-color: #cc0033;margin-top: 10px;margin-left: 100px; border-radius: 30px;font-family: serif;font-weight: bold;width: 100px;"/>
+
                 </div> 
-            </fieldset>
-              
+                 <h:commandButton value=" Back " action="admin.xhtml" style="color: #0000cc;background-color: #ffff66;margin-top: 130px;margin-left: 320px; border-radius: 30px;font-family: serif;font-weight: bold;height: 35px;width: 100px;" />                 
+                 <h:commandButton value=" View " action="view.xhtml" style="color: #0000cc;background-color: #ffff66;margin-top: 130px;margin-left: 30px; border-radius: 30px;font-family: serif;font-weight: bold;width: 100px;height: 35px;"/>     
+              </fieldset> 
         </h:form>
+                     <h4>DATA TABLE</h4>
+        <h:dataTable id="table" value="#{information.datalist}" var="siru">
+        <h:column>
+            <f:facet name="header">First Name</f:facet>
+            <h:outputText value="#{siru.fname}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Last Name</f:facet>
+            <h:outputText value="#{siru.lname}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Phone</f:facet>
+            <h:outputText value="#{siru.phone}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">E-mail</f:facet>
+            <h:outputText value="#{siru.email}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Gender</f:facet>
+            <h:outputText value="#{siru.gender}"/>
+        </h:column>  
+        <h:column>
+            <f:facet name="header">User Type</f:facet>
+            <h:outputText value="#{siru.userType}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">User Name</f:facet>
+            <h:outputText value="#{siru.userName}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Password</f:facet>
+            <h:outputText value="#{siru.password}"/>
+        </h:column>            
+        </h:dataTable> 
+<!--        <h:form class="bton">
+            <h:commandButton  value="Back" action="admin.xhtml" styleClass="bcc"/>
+           <h:commandButton  value="Home" action="index.xhtml" styleClass="bc"/>
+        </h:form>-->
         <SCRIPT for="message">
             function upd()
             {

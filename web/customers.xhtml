@@ -1,12 +1,42 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head>
-        <title>Facelet Title</title>
+        <title>customer page</title>
+        <link rel="stylesheet" href="customers.css"/>
     </h:head>
     <h:body>
-        Hello from Facelets
+                  
+        <h2> WELL CAME TO ABERUS HOTEL!! what shall you want?</h2>
+        <h:form class="form">     
+
+        <div class="container">
+            <img src="image/img6.jpg" alt=""/>
+                <div class="content"> 
+                    <h3> Book room here.</h3>
+                    <h:commandButton value=" Book Room " action="room.xhtml" styleClass="bnn"/>                    
+                </div>
+        </div>
+          <div class="container">
+              <img src="image/img7.jpg" alt=""/>
+              <div class="content"> 
+                    <h3> Order Food here.</h3>
+                    <h:commandButton value=" Order Food " action="foods.xhtml" styleClass="bnn"/>                    
+                </div>
+        </div>
+           <div class="container">
+            <img src="image/img8.jpg" alt=""/>
+                <div class="content"> 
+                    <h3> Order drink here.</h3>
+                    <h:commandButton value=" Order Drink " action="drinks.xhtml" styleClass="bnn"/>                    
+                </div>
+        </div>
+         
+            <h:commandButton value=" Back  " action="LoginP.xhtml" style="position: fixed;bottom: 40px;right: 40px; margin-top: 200px; margin-left: 1100px" styleClass="bnn"/>
+            <h:commandButton value=" Home " action="index.xhtml" style=" position: fixed;bottom: 40px;right: 150px; margin-top: 200px;margin-left: 30px;" styleClass="bnn"/>
+        </h:form>
     </h:body>
 </html>
 

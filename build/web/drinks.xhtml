@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>customer page</title>
+        <link rel="stylesheet" href="customers.css"/>
+    </h:head>
+    <h:body>
+                  
+        <h2> WELL CAME TO ABERUS HOTEL!! what type of drinks shall you want?</h2>
+        <h:form class="form">     
+
+        <div class="container">
+            <img src="image/soft.jpg" alt=""/>
+                <div class="content"> 
+                    <h3>Soft Drinks are here</h3>
+                    <h:commandButton value="  Soft Drink  " action="odrink.xhtml" styleClass="bnn"/>                    
+                </div>
+        </div>
+          <div class="container">
+              <img src="image/alchol.jpg" alt=""/>
+              <div class="content"> 
+                    <h3>Alchols are here</h3>
+                    <h:commandButton value=" Order Alchols " action="odrink.xhtml" styleClass="bnn"/>                    
+                </div>
+        </div>
+           <div class="container">
+            <img src="image/juice1.jpg" alt=""/>
+                <div class="content"> 
+                    <h3>Juices are here</h3>
+                    <h:commandButton value="  Order Juice  " action="odrink.xhtml" styleClass="bnn"/>                    
+                </div>
+        </div>
+         
+            <h:commandButton value=" Back  " action="customers.xhtml" style="position: fixed;bottom: 40px;right: 40px; margin-top: 200px; margin-left: 1100px" styleClass="bnn"/>
+            <h:commandButton value=" Home " action="index.xhtml" style=" position: fixed;bottom: 40px;right: 150px; margin-top: 200px;margin-left: 30px;" styleClass="bnn"/>
+        </h:form>
+    </h:body>
+</html>
+

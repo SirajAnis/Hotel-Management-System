@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Book room</title>
+        <link rel="stylesheet" href="delete.css"/>
+    </h:head>
+    <h:body>
+        <ui:include src="aberus.xhtml"/>
+        <h:form>
+            <h1>Well Came!</h1>
+            <h1>Book room here.</h1>
+            <h:outputLabel class="labl" value="User Name "/>
+            <h:inputText class="input" value="" a:placeholder="Enter username" style="margin-left: 35px;"/>
+            <h:outputLabel class="labl" value="Room Number "/>
+            <h:inputText class="input" value="" a:placeholder="Enter Room number" style="margin-left: 5px;"/>           
+            <div>
+                <h:commandButton value=" Book " styleClass="btt"/>
+            </div>
+        </h:form>
+         <h:form>
+            <h:commandButton value=" Back  " action="room.xhtml" style="margin-top: 400px; margin-left: 1100px" styleClass="btt"/>
+            <h:commandButton value=" Home " action="index.xhtml" style="margin-top: 400px;margin-left: 30px;" styleClass="btt"/>
+        </h:form>
+    </h:body>
+</html>
